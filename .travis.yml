@@ -136,13 +136,13 @@ jobs:
   - dist: xenial
     name: xenial-generic
     language: generic
-    script:
-    - php -v
+    #script:
+    #- php -v
   - dist: bionic
     name: bionic-generic
     language: generic
-    script:
-    - php -v
+    #script:
+    #- php -v
 # cache:
 #   directories:
 #    - /home/travis/.rvm/
